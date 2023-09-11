@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run ng_ssr_esm:serve-ssr",
-    "serve:ssr": "node dist/ng_ssr_esm/server/main.js",
+    "serve:ssr": "node dist/ng_ssr_esm/main.server.mjs",
     "build:ssr": "ng build && ng run ng_ssr_esm:server",
     "prerender": "ng run ng_ssr_esm:prerender"
   },
